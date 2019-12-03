@@ -11,6 +11,12 @@ HEADER
 header {
   color: white;
 }
+.header_top {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 2;
+}
 .bg_blu {
   background-color: #2C3E50;
 }
@@ -21,11 +27,21 @@ header {
   height: 100px;
 }
 .height_640 {
-  height: 460px;
+  height: 640px;
 }
 .padding_90_0_90 {
   padding: 90px 0;
 }
+.position_relative {
+position: relative;
+}
+.absolute_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 991px) {
   .height_70 {
     height: 70px;
