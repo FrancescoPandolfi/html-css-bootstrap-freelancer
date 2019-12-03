@@ -1,3 +1,10 @@
+
+h2 {
+  margin: 0;
+}
+
+
+
 /* -----
 HEADER
 -------- */
@@ -14,7 +21,10 @@ header {
   height: 100px;
 }
 .height_640 {
-  height: 640px;
+  height: 460px;
+}
+.padding_90_0_90 {
+  padding: 90px 0;
 }
 @media screen and (max-width: 991px) {
   .height_70 {
@@ -25,15 +35,12 @@ header {
 /* ---------------------
 MAIN PORTFOLIO SECTION
 ------------------------ */
-
+.portfolio {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
 .height_250 {
   height: 250px;
-}
-.margin_top_90 {
-  margin-top: 90px;
-}
-.margin_bot_60 {
-  margin-bottom: 60px;
 }
 .portfolio_items {
   margin-bottom: 30px;
@@ -43,6 +50,18 @@ MAIN PORTFOLIO SECTION
 MAIN ABOUT SECTION
 ------------------------ */
 
-.about {
-  padding: 90px 0;
+
+
+/* ---------------------
+FOOTER
+------------------------ */
+footer {
+  color: white;
+}
+.padding_75 {
+  padding: 75px 0;
+}
+.footer_bot {
+  background-color: #1A252F;
+  padding: 25px;
 }
