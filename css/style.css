@@ -1,0 +1,44 @@
+/* -----
+HEADER
+-------- */
+header {
+  color: white;
+}
+.bg_blu {
+  background-color: #2C3E50;
+}
+.bg_green {
+  background-color: #2BBC9C;
+}
+.height_100 {
+  height: 100px;
+}
+.height_640 {
+  height: 640px;
+}
+@media screen and (max-width: 991px) {
+  .height_70 {
+    height: 70px;
+  }
+}
+
+/* ---------------------
+MAIN PORTFOLIO SECTION
+------------------------ */
+
+.height_250 {
+  height: 250px;
+}
+.margin_top_90 {
+  margin-top: 90px;
+}
+.margin_bot_60 {
+  margin-bottom: 60px;
+}
+.portfolio_items {
+  margin-bottom: 30px;
+}
+
+/* ---------------------
+MAIN ABOUT SECTION
+------------------------ */
