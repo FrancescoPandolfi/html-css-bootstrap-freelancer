@@ -11,6 +11,10 @@ h2 {
   margin: 0;
   color: #2C3E50;
 }
+h4 {
+  font-size: 23px;
+  font-family: 'Montserrat', sans-serif;
+}
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -186,10 +190,46 @@ a:hover.btn-download {
   color:  black;
 }
 @media screen and (max-width: 991px) {
-
 .margin_bot {
   margin-bottom: 25px;
 }
+}
+/* ---------------------
+MAIN CONTACT SECTION
+------------------------ */
+
+.form-control {
+  width: 100%;
+  padding: 12px 0;
+  margin: 8px 0;
+  border: 0;
+  box-shadow: 0 !important;
+  outline: none;
+  font-size: 23px;
+  color: #495057;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow:none !important;
+}
+.form-group {
+  border-bottom: 1px solid #E5E9EC;
+  padding-bottom: 30px;
+}
+form {
+  text-align: left;
+}
+.btn_send {
+  color: white;
+  font-size: 19px;
+  background-color: #2BBC9C;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 7px;
+}
+.btn_send:hover {
+background: #148f77;
+color: white;
 }
 /* ---------------------
 FOOTER
@@ -197,10 +237,35 @@ FOOTER
 footer {
   color: white;
 }
-.padding_75 {
-  padding: 75px 0;
+.ico {
+  padding: 10px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+  line-height: 23px;
+  border: 2px solid white;
+  vertical-align: middle;
 }
+i.ico:hover {
+  color black;
+}
+
+.padding_70 {
+  padding: 70px 0;
+}
+a.start {
+  color: #2BBC9C;
+}
+a:hover.start {
+  color: #148f77;
+}
+
 .footer_bot {
   background-color: #1A252F;
   padding: 25px;
+}
+@media screen and (max-width: 991px) {
+.margin_bot {
+  margin-bottom: 25px;
+}
 }
