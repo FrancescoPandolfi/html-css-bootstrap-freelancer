@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:700&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Freelancer - Start Bootstrap Theme</title>
   </head>
@@ -14,24 +16,42 @@
       <div class="header_top bg_blu">
         <div class="container height_100 height_70">
           <div class="row">
-            <div class="col-xs-4">
-              START BOOSTRAP
+
+            <div class="col-xs-8 col-sm-4">
+            <div class="logo">
+              START BOOTSTRAP
             </div>
-            <div class="col-xs-8 text-right">
-              PORTFOLIO - ABOUT - CONTACT
             </div>
+
+            <div class="col-xs-4 col-sm-8 text-right">
+
+              <div class="visible-md visible-lg">
+                <a href="#" class="menu_item">PORTFOLIO</a>
+                <a href="#" class="menu_item">ABOUT</a>
+                <a href="#" class="menu_item">CONTACT</a>
+              </div>
+
+              <div class="visible-sm visible-xs">
+                <a class="btn btn_menu" href="#" role="button">MENU
+                  <span class="glyphicon glyphicon-menu-hamburger hamb"></span>
+                </a>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>
 
-      <div class="bg_green">
-        <div class="container position_relative height_640 text-center">
-          <div class="absolute_center">
-            <div class="row">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
-            </div>
-          </div>
+      <div class="jumbo bg_green">
+
+        <div class="jumbo_text text-center">
+          <img class="avatar" src="img/avataaars.svg" alt="avatar">
+          <h1>START BOOTSTRAP</h1>
+          <div class="line"></div> <i class="fas fa-star star"></i> <div class="line"></div>
+          <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
+
       </div>
     </header>
 
@@ -43,6 +63,7 @@
       <section class="portfolio text-center">
         <div class="container">
           <h2>PORTFOLIO</h2>
+          <div class="line line_color"></div> <i class="fas fa-star star star_color"></i> <div class="line line_color"></div>
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio_items height_250 bg_blu"></div>
