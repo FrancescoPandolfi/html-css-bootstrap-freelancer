@@ -32,6 +32,10 @@ header {
 .bg_blu {
   background-color: #2C3E50;
 }
+.height_100 {
+  height: 100px;
+  line-height: 100px;
+}
 .logo {
   font-size: 26px;
   font-family: 'Montserrat', sans-serif;
@@ -80,10 +84,6 @@ JUMBO
 .bg_green {
   background-color: #2BBC9C;
 }
-.height_100 {
-  height: 100px;
-  line-height: 100px;
-}
 .padding_90_0_90 {
   padding: 90px 0;
 }
@@ -124,12 +124,39 @@ MAIN PORTFOLIO SECTION
   margin-top: 90px;
   margin-bottom: 60px;
 }
-.height_250 {
-  height: 250px;
-}
 .portfolio_items {
   margin-bottom: 30px;
+  height: 250px;
 }
+.portfolio_items img {
+  height: 250px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1199px) {
+  .portfolio_items img {
+    height: 210px;
+  }
+  .portfolio_items {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio_items img {
+    height: 240px;
+  }
+  .portfolio_items {
+    height: 240px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio_items img {
+    height: 270px;
+  }
+  .portfolio_items {
+    height: 270px;
+  }
+}
+
 
 /* ---------------------
 MAIN ABOUT SECTION
